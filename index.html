@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Developers Group Event Sort</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/extras.css">
+    <link rel="stylesheet" href="node_modules/wow/css/libs/animate.css">
+
+  </head>
+  <body ng-controller="MainCtrl">
+    <div class="container vertical-align">
+      <h1 class="center-align color-white wow fadeIn" ng-bind="sorteado"></h1>
+      <div class="row">
+        <div class="col m6 center-block float-none">
+          <input type="file" file-reader="fileContent">
+          <a class="waves-effect waves-teal btn-flat light-blue darken-3 color-white" ng-click="convertCsv()">Sortear</a>
+        </div>
+      </div>
+    </div>
+    <!--load scripts-->
+    <script src="js/angular.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/papaparse.min.js" charset="utf-8"></script>
+    <script src="js/materialize.min.js" charset="utf-8"></script>
+    <script src="node_modules/wow/dist/wow.min.js"></script>
+  </body>
+</html>

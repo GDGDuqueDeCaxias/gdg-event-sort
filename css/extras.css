@@ -1,0 +1,12 @@
+body{
+  background-image: url(../img/bg.svg);
+}
+.float-none{
+  float: none !important;
+}
+.color-white{
+  color: #fff;
+}
+.vertical-align{
+  margin-top: 20%;
+}
