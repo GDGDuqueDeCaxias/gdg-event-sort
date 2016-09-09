@@ -1,0 +1,25 @@
+{
+  "name": "gdg-event-sort",
+  "description": "GDG Event Sort System",
+  "main": "index.js",
+  "authors": [
+    "GDG Duque de Caxias"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "GDG"
+  ],
+  "homepage": "https://github.com/GDGDuqueDeCaxias/gdg-event-sort",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "materialize": "^0.97.7",
+    "angular": "^1.5.8",
+    "wow": "wowjs#^1.1.2"
+  }
+}
