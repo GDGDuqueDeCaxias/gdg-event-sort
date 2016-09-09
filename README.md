@@ -3,5 +3,5 @@ Google Developers Group Sort System
 
 ### Instalation
 ```sh
-$ npm install
+$ bower install
 ```
