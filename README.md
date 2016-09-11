@@ -15,5 +15,10 @@ Pensando nisso, decidimos fazer um site de sorteios para os GDGs.
 $ bower install
 ```
 
+### CSV exemplo
+[inscritos.csv](/inscritos.csv)
+
+
 ### Guia de contribuição 
 Para contribuir, basta seguir as [seguintes guidelines](/CONTRIBUICAO.MD)
+
