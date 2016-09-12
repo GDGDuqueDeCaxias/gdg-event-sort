@@ -23,9 +23,8 @@
       sound.play()
 
       sound.addEventListener('ended', function () {
-        $scope.$apply(function () {
-          $scope.raffled = names[sorted]
-        })
+        $scope.raffled = names[sorted]
+        $scope.$digest()
       }, false)
     }
   }])
