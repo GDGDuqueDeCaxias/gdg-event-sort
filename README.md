@@ -10,10 +10,6 @@ Pensando nisso, decidimos fazer um site de sorteios para os GDGs.
 
 :white_check_mark: Sorteio através de arquivo CSV
 
-### Instalação
-```sh
-$ bower install
-```
 
 ### CSV exemplo
 [inscritos.csv](/inscritos.csv)
