@@ -9,20 +9,28 @@
 
   // Controller
   // =========
-  .controller('MainCtrl', ['$scope', function ($scope) {
+  .controller('MainCtrl', ['$scope', '$interval', function ($scope, $interval) {
 
     // Will appear when raffled
     $scope.raffled = 'GDG Sort System'
 
     // Convert
     $scope.convert = function () {
+      var i = 0
       var names = getNames($scope.fileContent)
       var sorted = Math.floor(Math.random() * names.length)
 
       var sound = new Audio('mah-oee.mp3')
       sound.play()
 
+      var turn = $interval(function () {
+        if (i > names.length) i = 0
+        $scope.raffled = names[i]
+        i++
+      }, 100)
+
       sound.addEventListener('ended', function () {
+        $interval.cancel(turn)
         $scope.raffled = names[sorted]
         $scope.$digest()
       }, false)
