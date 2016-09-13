@@ -14,17 +14,14 @@
       <h1 class="center-align color-white wow fadeIn" ng-bind="raffled"></h1>
       <div class="row">
         <div class="col m6 center-block float-none">
-          <input type="file" file-reader="fileContent">
-          <a class="waves-effect waves-teal btn-flat light-blue darken-3 color-white" ng-click="convertCsv()">Sortear</a>
+          <input type="file" accept=".csv" file-reader="fileContent">
+          <a class="waves-effect waves-teal btn-flat light-blue darken-3 color-white" ng-click="convert()">Sortear</a>
         </div>
       </div>
     </div>
+
     <!--load scripts-->
-    <script src="js/angular.min.js" charset="utf-8"></script>
+    <script src="js/lib/angular/angular.min.js" charset="utf-8"></script>
     <script src="js/app.js" charset="utf-8"></script>
-    <script src="js/jquery.min.js" charset="utf-8"></script>
-    <script src="js/papaparse.min.js" charset="utf-8"></script>
-    <script src="js/materialize.min.js" charset="utf-8"></script>
-    <script src="js/wow.min.js" charset="utf-8"></script>
   </body>
 </html>

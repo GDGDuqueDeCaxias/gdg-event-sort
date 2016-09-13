@@ -15,11 +15,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "js/lib"
   ],
   "devDependencies": {
-    "materialize": "^0.97.7",
-    "angular": "^1.5.8",
-    "wow": "wowjs#^1.1.2"
+    "angular": "^1.5.8"
   }
 }
