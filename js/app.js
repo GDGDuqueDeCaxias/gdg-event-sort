@@ -75,7 +75,7 @@
   // Get names
   // =========
   function getNames (csv) {
-    var lines = csv.split('\n').slice(1)
+    var lines = csv.split('\n')
     var names = []
 
     lines.forEach(function (name) {
